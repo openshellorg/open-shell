@@ -1,0 +1,16 @@
+= Nushell parity fixtures (`nu` mode)
+
+Upstream link:https://github.com/nushell/nushell[Nushell] at a pinned tag is the behavioral reference for `nu` mode.
+
+== Fixture layout (planned)
+
+[source]
+----
+tests/parity/nu/
+  README.adoc
+  pin.txt
+  fixtures/
+  golden/
+----
+
+Phase 0: document layout + `.gitkeep` placeholder.

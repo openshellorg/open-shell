@@ -1,0 +1,19 @@
+= open-shell
+:description: Open Shell — Dlang structured shell runtime. Default `oso` syntax mode; `nu` and `bash` compatibility modes.
+
+link:https://openshellorg.github.io/docs/shell-architecture/open-shell.html[Architecture spec]
+
+== Status
+
+Wave 1 scaffold — placeholder main, mode matrix docs, Nushell parity fixture layout.
+
+== Build
+
+[source,bash]
+----
+dub build
+----
+
+== License
+
+MIT — see link:LICENSE[LICENSE].

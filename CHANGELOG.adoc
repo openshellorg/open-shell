@@ -1,0 +1,5 @@
+= Changelog
+
+== 2026-08-28
+
+* Wave 1 scaffold: dub.sdl, placeholder main, MODES.adoc, parity README.

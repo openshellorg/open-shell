@@ -1,0 +1,11 @@
+= Syntax modes
+
+|===
+| Mode id | Role
+
+| *`oso`* (default) | Open Shell native syntax + OSO display/context layers
+| *`nu`* | Nushell compatibility — parity tests in `tests/parity/nu/`
+| *`bash`* | POSIX/bash-ish classical syntax
+|===
+
+Spec: link:https://openshellorg.github.io/docs/shell-architecture/open-shell.html[open-shell @ shell-architecture].
