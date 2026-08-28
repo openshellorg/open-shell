@@ -1,0 +1,13 @@
+// Open Shell — curated theme defaults (Wave 1 placeholder).
+// System fonts only: do NOT bundle Consolas or other proprietary faces.
+// Users and host chrome may override font.monospace.
+
+// Conceptual / docs form:
+//   font.monospace = "Consolas"
+//
+// Fallback when Consolas is missing:
+//   Cascadia Mono → Courier New → platform monospace
+
+font {
+    monospace "Consolas"
+}

@@ -9,6 +9,8 @@
 !source/**
 !docs/
 !docs/**
+!config/
+!config/**
 !tests/
 !tests/**
 

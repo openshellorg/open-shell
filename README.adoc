@@ -17,6 +17,10 @@ dub build
 dub run -- --help
 ----
 
+== Typography
+
+Default cell font: **Consolas** (system face; override allowed). See link:docs/TYPOGRAPHY.adoc[docs/TYPOGRAPHY.adoc] and link:config/theme.example.sdl[config/theme.example.sdl].
+
 == Syntax modes
 
 See link:docs/MODES.adoc[docs/MODES.adoc] for mode ids (`oso`, `nu`, `bash`).

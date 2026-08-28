@@ -2,4 +2,5 @@
 
 == 2026-08-28
 
+* Curated default cell font **Consolas** (`font.monospace`); placeholder `config/theme.example.sdl`; docs/TYPOGRAPHY.adoc. Override allowed; no bundled font files.
 * Wave 1 scaffold: dub.sdl, placeholder main, MODES.adoc, parity README.

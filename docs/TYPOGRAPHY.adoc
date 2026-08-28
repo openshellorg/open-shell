@@ -1,0 +1,8 @@
+= Typography
+
+Open Shell ships **Consolas** as the curated default terminal/cell monospace (`font.monospace`).
+
+* Rationale and fallback stack: link:https://openshellorg.github.io/docs/shell-architecture/typography.html[shell-architecture typography]
+* Placeholder config: link:../config/theme.example.sdl[config/theme.example.sdl]
+* Override: user setting or host chrome — curated default is not locked
+* Do not bundle Consolas font files (license) — reference the system face
