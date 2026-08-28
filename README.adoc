@@ -1,19 +1,31 @@
 = open-shell
-:description: Open Shell — Dlang structured shell runtime. Default `oso` syntax mode; `nu` and `bash` compatibility modes.
+:description: Open Shell ? Dlang structured shell runtime. Default `oso` syntax mode; `nu` and `bash` compatibility modes.
 
-link:https://openshellorg.github.io/docs/shell-architecture/open-shell.html[Architecture spec]
+link:https://openshellorg.github.io/docs/shell-architecture/open-shell.html[Architecture spec] ?
+link:https://github.com/openshellorg/shell-architecture[shell-architecture]
 
 == Status
 
-Wave 1 scaffold — placeholder main, mode matrix docs, Nushell parity fixture layout.
+Wave 1 scaffold ? placeholder `main`, mode matrix docs, and Nushell parity fixture layout.
+No parser or REPL yet.
 
 == Build
 
 [source,bash]
 ----
 dub build
+dub run -- --help
 ----
+
+== Syntax modes
+
+See link:docs/MODES.adoc[docs/MODES.adoc] for mode ids (`oso`, `nu`, `bash`).
+
+== Parity baseline
+
+`nu` mode targets upstream Nushell behavior. Fixture layout:
+link:tests/parity/nu/README.adoc[tests/parity/nu/README.adoc].
 
 == License
 
-MIT — see link:LICENSE[LICENSE].
+MIT ? see link:LICENSE[LICENSE].
